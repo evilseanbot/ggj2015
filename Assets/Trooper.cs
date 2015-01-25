@@ -57,6 +57,17 @@ public class Trooper : MonoBehaviour {
 
 	}
 
+	void hackyFixLocation() {
+		for (int i = 0; i < 3; i++) {
+			if (location[i] < 0) {
+				location[i] = 0;
+			}
+			if (location[i] > 19) {
+				location[i] = 19;
+			}
+		}
+	}
+
 	void pickNewState() {
 
 		// Change the location after a full movement cycle
@@ -69,6 +80,8 @@ public class Trooper : MonoBehaviour {
 		} else if (state == "moveUp") {
 			location[2] += 1;
 		}
+
+		hackyFixLocation ();
 
 		// Decide if you should stop or start walking.
 		if (isWalking) {
@@ -195,6 +208,25 @@ public class Trooper : MonoBehaviour {
 				Destroy (gameObject);
 			}
 		}
+
+		/*// Prevent moving in to blocks
+		if (state == "moveUp" && location[2] >= 19) {
+			isWalking = false;
+			state = "waiting";			
+		}
+		if (state == "moveRight" && location[0] >= 19) {
+			isWalking = false;
+			state = "waiting";
+		}
+		if (state == "moveDown" && location[2] <= 0) {
+			isWalking = false;
+			state = "waiting";
+		}
+		if (state == "moveLeft" && location[0] <= 0) {
+			isWalking = false;
+			state = "waiting";			
+		}*/
+
 
 		if (weather.GetComponent<Weather>().isRaining) {
 

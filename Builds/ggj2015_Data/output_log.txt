@@ -12,21 +12,13 @@ Platform assembly: C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj
 Loading C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.348 seconds
+- Completed reload, in  0.226 seconds
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 1920x1080 75Hz; virtual: 3286x1080 at 0,0
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 Platform assembly: C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\System.dll (this message is harmless)
 2
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Joystick connected ("Controller (Rock Candy Gamepad for Xbox 360)").
- 
-(Filename:  Line: 1349)
-
-Joystick disconnected ("Controller (Rock Candy Gamepad for Xbox 360)").
- 
-(Filename:  Line: 1256)
 

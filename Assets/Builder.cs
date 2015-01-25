@@ -15,7 +15,7 @@ public class Builder : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown("d")) {
-			if (location[0] < 20) {
+			if (location[0] < 19) {
 				transform.position = new Vector3(transform.position.x+0.03f, transform.position.y, transform.position.z);
 				location[0]+=1;
 			}
@@ -36,14 +36,14 @@ public class Builder : MonoBehaviour {
 		}
 
 		if (Input.GetKeyDown("w")) {
-			if (location[2] < 20) {
+			if (location[2] < 19) {
 				transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z+0.03f);
 				location[2]+=1;
 			}
 		}
 
 		if (Input.GetKeyDown("e")) {
-			if (location[1] < 20) {
+			if (location[1] < 19) {
 				transform.position = new Vector3(transform.position.x, transform.position.y+0.03f, transform.position.z);
 				location[1]+=1;
 			}
