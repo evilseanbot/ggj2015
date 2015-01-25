@@ -1,0 +1,32 @@
+Initialize engine version: 4.6.0f3 (30840d631a27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 8240 (ID=0x9838)
+    Vendor:   ATI
+    VRAM:     501 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.348 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 75Hz; virtual: 3286x1080 at 0,0
+Platform assembly: C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Seanna\Documents\Software Projects\Game Projects\ggj2015\Builds\ggj2015_Data\Managed\System.dll (this message is harmless)
+2
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Joystick connected ("Controller (Rock Candy Gamepad for Xbox 360)").
+ 
+(Filename:  Line: 1349)
+
+Joystick disconnected ("Controller (Rock Candy Gamepad for Xbox 360)").
+ 
+(Filename:  Line: 1256)
+
